@@ -3,21 +3,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "d99bb85a",
+   "id": "0a20fe45",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2025-12-29T17:06:10.478061Z",
-     "iopub.status.busy": "2025-12-29T17:06:10.477825Z",
-     "iopub.status.idle": "2025-12-29T17:06:10.481676Z",
-     "shell.execute_reply": "2025-12-29T17:06:10.481169Z"
+     "iopub.execute_input": "2025-12-30T16:12:22.922406Z",
+     "iopub.status.busy": "2025-12-30T16:12:22.921946Z",
+     "iopub.status.idle": "2025-12-30T16:12:22.925622Z",
+     "shell.execute_reply": "2025-12-30T16:12:22.925099Z"
     },
     "papermill": {
-     "duration": 0.008235,
-     "end_time": "2025-12-29T17:06:10.483034",
+     "duration": 0.007978,
+     "end_time": "2025-12-30T16:12:22.926908",
      "exception": false,
-     "start_time": "2025-12-29T17:06:10.474799",
+     "start_time": "2025-12-30T16:12:22.918930",
      "status": "completed"
     },
     "tags": []
@@ -46,19 +46,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "65f39e1e",
+   "id": "cca12396",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-12-29T17:06:10.486857Z",
-     "iopub.status.busy": "2025-12-29T17:06:10.486638Z",
-     "iopub.status.idle": "2025-12-29T17:06:10.490024Z",
-     "shell.execute_reply": "2025-12-29T17:06:10.489287Z"
+     "iopub.execute_input": "2025-12-30T16:12:22.931059Z",
+     "iopub.status.busy": "2025-12-30T16:12:22.930537Z",
+     "iopub.status.idle": "2025-12-30T16:12:22.933643Z",
+     "shell.execute_reply": "2025-12-30T16:12:22.933124Z"
     },
     "papermill": {
-     "duration": 0.006721,
-     "end_time": "2025-12-29T17:06:10.491277",
+     "duration": 0.006415,
+     "end_time": "2025-12-30T16:12:22.934893",
      "exception": false,
-     "start_time": "2025-12-29T17:06:10.484556",
+     "start_time": "2025-12-30T16:12:22.928478",
      "status": "completed"
     },
     "tags": []
@@ -93,23 +93,23 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "8b2844af",
+   "id": "79ee570a",
    "metadata": {
     "collapsed": true,
     "execution": {
-     "iopub.execute_input": "2025-12-29T17:06:10.494837Z",
-     "iopub.status.busy": "2025-12-29T17:06:10.494641Z",
-     "iopub.status.idle": "2025-12-29T17:06:17.477039Z",
-     "shell.execute_reply": "2025-12-29T17:06:17.476100Z"
+     "iopub.execute_input": "2025-12-30T16:12:22.938768Z",
+     "iopub.status.busy": "2025-12-30T16:12:22.938330Z",
+     "iopub.status.idle": "2025-12-30T16:12:30.063394Z",
+     "shell.execute_reply": "2025-12-30T16:12:30.062662Z"
     },
     "jupyter": {
      "outputs_hidden": true
     },
     "papermill": {
-     "duration": 6.986636,
-     "end_time": "2025-12-29T17:06:17.479260",
+     "duration": 7.129444,
+     "end_time": "2025-12-30T16:12:30.065727",
      "exception": false,
-     "start_time": "2025-12-29T17:06:10.492624",
+     "start_time": "2025-12-30T16:12:22.936283",
      "status": "completed"
     },
     "tags": []
@@ -183,19 +183,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "014f8f70",
+   "id": "cae5533f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-12-29T17:06:17.484983Z",
-     "iopub.status.busy": "2025-12-29T17:06:17.484718Z",
-     "iopub.status.idle": "2025-12-29T17:06:52.407366Z",
-     "shell.execute_reply": "2025-12-29T17:06:52.406451Z"
+     "iopub.execute_input": "2025-12-30T16:12:30.071316Z",
+     "iopub.status.busy": "2025-12-30T16:12:30.071035Z",
+     "iopub.status.idle": "2025-12-30T16:14:13.131614Z",
+     "shell.execute_reply": "2025-12-30T16:14:13.130677Z"
     },
     "papermill": {
-     "duration": 34.927834,
-     "end_time": "2025-12-29T17:06:52.408986",
+     "duration": 103.065515,
+     "end_time": "2025-12-30T16:14:13.133206",
      "exception": false,
-     "start_time": "2025-12-29T17:06:17.481152",
+     "start_time": "2025-12-30T16:12:30.067691",
      "status": "completed"
     },
     "tags": []
@@ -219,6 +219,26 @@
       "--- Processing Fold 0 ---\n",
       "Building backbone: vit_large_patch14_dinov2\n",
       "Loading weights from: /kaggle/input/dinov2-backbone/dinov2_vitl14.pth\n",
+      "Loading trained checkpoint: /kaggle/input/dinov2-logtransform/pytorch/default/1/best_model.pth\n",
+      "Note: Ignored unexpected keys: ['tile_pos_embed', 'backbone.mask_token']\n",
+      "✓ Trained model loaded successfully!\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "Fold 0 Inference: 100%|██████████| 1/1 [00:02<00:00,  2.59s/it]\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "--- Processing Fold 1 ---\n",
+      "Building backbone: vit_large_patch14_dinov2\n",
+      "Loading weights from: /kaggle/input/dinov2-backbone/dinov2_vitl14.pth\n",
       "Loading trained checkpoint: /kaggle/input/dinov2-logtransform/pytorch/default/1/best_model_1.pth\n",
       "Note: Ignored unexpected keys: ['tile_pos_embed', 'backbone.mask_token']\n",
       "✓ Trained model loaded successfully!\n"
@@ -228,7 +248,67 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "Fold 0 Inference: 100%|██████████| 1/1 [00:02<00:00,  2.53s/it]"
+      "Fold 1 Inference: 100%|██████████| 1/1 [00:01<00:00,  1.93s/it]\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "--- Processing Fold 2 ---\n",
+      "Building backbone: vit_large_patch14_dinov2\n",
+      "Loading weights from: /kaggle/input/dinov2-backbone/dinov2_vitl14.pth\n",
+      "Loading trained checkpoint: /kaggle/input/dinov2-logtransform/pytorch/default/1/best_model_2.pth\n",
+      "Note: Ignored unexpected keys: ['tile_pos_embed', 'backbone.mask_token']\n",
+      "✓ Trained model loaded successfully!\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "Fold 2 Inference: 100%|██████████| 1/1 [00:01<00:00,  1.94s/it]\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "--- Processing Fold 3 ---\n",
+      "Building backbone: vit_large_patch14_dinov2\n",
+      "Loading weights from: /kaggle/input/dinov2-backbone/dinov2_vitl14.pth\n",
+      "Loading trained checkpoint: /kaggle/input/dinov2-logtransform/pytorch/default/1/best_model_3.pth\n",
+      "Note: Ignored unexpected keys: ['tile_pos_embed', 'backbone.mask_token']\n",
+      "✓ Trained model loaded successfully!\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "Fold 3 Inference: 100%|██████████| 1/1 [00:01<00:00,  1.96s/it]\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "--- Processing Fold 4 ---\n",
+      "Building backbone: vit_large_patch14_dinov2\n",
+      "Loading weights from: /kaggle/input/dinov2-backbone/dinov2_vitl14.pth\n",
+      "Loading trained checkpoint: /kaggle/input/dinov2-logtransform/pytorch/default/1/best_model_4.pth\n",
+      "Note: Ignored unexpected keys: ['tile_pos_embed', 'backbone.mask_token']\n",
+      "✓ Trained model loaded successfully!\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "Fold 4 Inference: 100%|██████████| 1/1 [00:01<00:00,  1.94s/it]"
      ]
     },
     {
@@ -270,7 +350,11 @@
     "    # Paths\n",
     "    DATA_DIR = None  # Auto-detected\n",
     "    CHECKPOINTS = [\n",
+    "        '/kaggle/input/dinov2-logtransform/pytorch/default/1/best_model.pth',\n",
     "        '/kaggle/input/dinov2-logtransform/pytorch/default/1/best_model_1.pth',\n",
+    "        '/kaggle/input/dinov2-logtransform/pytorch/default/1/best_model_2.pth',\n",
+    "        '/kaggle/input/dinov2-logtransform/pytorch/default/1/best_model_3.pth',\n",
+    "        '/kaggle/input/dinov2-logtransform/pytorch/default/1/best_model_4.pth',\n",
     "    ]\n",
     "    OUTPUT_PATH = '/kaggle/working/submission.csv'\n",
     "    \n",
@@ -560,14 +644,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 47.013506,
-   "end_time": "2025-12-29T17:06:55.062032",
+   "duration": 116.075833,
+   "end_time": "2025-12-30T16:14:16.555024",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2025-12-29T17:06:08.048526",
+   "start_time": "2025-12-30T16:12:20.479191",
    "version": "2.6.0"
   }
  },
